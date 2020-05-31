@@ -1,0 +1,24 @@
+body{
+    background-color: #000000 !important;
+    width: 100%;
+    height: auto;
+}
+.secao_form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.secao_form h1{
+    text-align: center;
+}
+.secao_form h5{
+    text-align: center;
+}
+.secao_form form{
+    max-width: 95%;
+    margin: 0 auto;
+}
+.secao_form .btns{
+    text-align: center;
+}

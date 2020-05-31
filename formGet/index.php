@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <title>Form</title>
+    <title>GET</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,7 +14,7 @@
     <main class="container">
         <section class="secao_form">
             <div class="card" style="width: 25rem;">
-                <form action="post.php" method="POST" class="form mt-3 mb-3">
+                <form action="get.php" method="GET" class="form mt-3 mb-3">
                     <h1>Form</h1>
 
                     <div class="form-row">
