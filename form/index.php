@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <title>Cadastro</title>
+    <title>Form</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,7 +14,7 @@
     <main class="container">
         <section class="secao_form">
             <div class="card" style="width: 25rem;">
-                <form action="post.php" class="form mt-3 mb-3">
+                <form action="post.php" method="POST" class="form mt-3 mb-3">
                     <h1>Form</h1>
 
                     <div class="form-row">
@@ -22,7 +22,7 @@
                             <div class="form-group">
                                 <label>Nome</label>
                                 <input type="text" class="form-control" id="Nome" 
-                                name="nome" placeholder="Seu email">
+                                name="nome" placeholder="Seu nome">
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -36,7 +36,7 @@
 
                     <div class="form-group">
                         <label>Idade</label>
-                        <input type="email" class="form-control" id="idade"
+                        <input type="text" class="form-control" id="idade"
                         name="idade" placeholder="Sua idade">
                     </div>
 

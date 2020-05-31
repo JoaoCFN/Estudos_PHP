@@ -12,6 +12,12 @@ body{
 .secao_form h1{
     text-align: center;
 }
+.secao_form h2{
+    text-align: center;
+}
+.secao_form h3{
+    text-align: center;
+}
 .secao_form form{
     max-width: 95%;
     margin: 0 auto;
